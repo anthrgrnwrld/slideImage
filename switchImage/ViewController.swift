@@ -166,7 +166,15 @@ class ViewController: UIViewController {
     
     func slideWithDistance(distance: distanceClass, touchView: LocationImageView, locationImageView: LocationImageView, index: Int) {
         
+        var isNotSlide = false
+        
         let destinationIndex = locationImageView.location
+        
+        for (index, val) in enumerate(imageLPArray) {
+            if imageLPArray[index] != locationImageView && imageLPArray[index].location == locationImageView.location {
+                isNotSlide = true
+            }
+        }
         
         if distance.distanceArray[distance.minIndex] < 40 * sqrt(2.000) && index == locationImageView.location && touchView != locationImageView {
             
@@ -180,7 +188,7 @@ class ViewController: UIViewController {
             }
             
         } else {
-            if locationImageView.isSlide == true && touchView != locationImageView {
+            if locationImageView.isSlide == true && touchView != locationImageView && isNotSlide != true {
                 locationImageView.isSlide = false
                 animationWithImageView(locationImageView, point: destinationViewArray[destinationIndex].center, duration: 0.2)
                 locationImageView.layer.shadowOpacity = 0.0
@@ -192,6 +200,8 @@ class ViewController: UIViewController {
             }
             
         }
+        
+        isNotSlide = false
         
     }
     
