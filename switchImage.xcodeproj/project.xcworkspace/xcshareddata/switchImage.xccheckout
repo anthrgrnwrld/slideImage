@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C228CA3A-8874-4E6E-A281-20A850831CD8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3CED1F9C03DBA23D3F7F96BF253AD0F1E8D87075</key>
+		<string>https://github.com/anthrgrnwrld/slideImage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>switchImage.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3CED1F9C03DBA23D3F7F96BF253AD0F1E8D87075</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anthrgrnwrld/slideImage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3CED1F9C03DBA23D3F7F96BF253AD0F1E8D87075</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3CED1F9C03DBA23D3F7F96BF253AD0F1E8D87075</string>
+			<key>IDESourceControlWCCName</key>
+			<string>switchImage</string>
+		</dict>
+	</array>
+</dict>
+</plist>
