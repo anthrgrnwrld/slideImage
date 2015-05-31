@@ -171,7 +171,7 @@ class ViewController: UIViewController {
         let destinationIndex = locationImageView.location
         
         for (index, val) in enumerate(imageLPArray) {
-            if imageLPArray[index] != locationImageView && imageLPArray[index].location == locationImageView.location {
+            if imageLPArray[index] != locationImageView && imageLPArray[index].location == locationImageView.location && imageLPArray[index] != touchView {
                 isNotSlide = true
             }
         }
